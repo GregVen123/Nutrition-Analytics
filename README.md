@@ -1,4 +1,4 @@
-*Analyze MyFitnessPal Data*
+**Analyze MyFitnessPal Data**
 
 PERFECT DATA ASSUMPTION This script only is accurate when the MyFitnessPal Data is perfect, which means that breakfast, lunch, and dinner is tracked each day that you record and NO DATA IS PUT IN THE SNACKS SECTION. If you miss a meal the script won't be accurate. For example, if you record lunch and dinner but not breakfast myfitnesspal doesn't input the meal as 0 in the CSV, it skips it which messes up the script since it translates every 3 meals into one day.
 
