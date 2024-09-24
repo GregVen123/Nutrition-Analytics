@@ -4,13 +4,13 @@ from openpyxl import *
 from openpyxl.styles import PatternFill
 from openpyxl.chart import BarChart, LineChart, Reference
 try:
-    file = input("Paste the CSV file path here: ")
+    file = input("Paste the MyFitnessPal CSV file path here: ")
     df= pd.read_csv(file)
 except:
     print("Not a Valid file path, make sure the file is in your directory and that the name is correct")
 
 try:
-    caloric_goal = int(input("How many calories do aim for a day?: "))
+    caloric_goal = int(input("How many calories do you aim for a day?: "))
 except:
     print("Not a valid number")
 
